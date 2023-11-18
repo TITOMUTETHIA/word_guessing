@@ -31,7 +31,7 @@ void main() {
       if (answer.length != 1) {
         print("Only one letter at a time!");
         continue;
-      }
+      }//helow again
       totalAttempts++;
 
       bool found = false;
@@ -39,7 +39,7 @@ void main() {
         if (answer == word[i]) {
           classifiedWord[i] = answer;
           found = true;
-        }
+        }//hellow how are 
       }
 
       if (classifiedWord.join() == word) {
