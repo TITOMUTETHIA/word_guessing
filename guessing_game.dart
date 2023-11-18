@@ -7,6 +7,7 @@ void main() {
     "absurd",
     "abyss",
     "affix",
+    "affect"
     "askew",
     // Add more words here
   ];
@@ -32,7 +33,7 @@ void main() {
         print("Only one letter at a time!");
         continue;
       }//helow again
-      totalAttempts++;
+      totalAttempts++;//increment
 
       bool found = false;
       for (int i = 0; i < word.length; i++) {
